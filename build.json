@@ -1,0 +1,42 @@
+{
+  "version": "0.18.9",
+  "hotfix": 9,
+  "id": "render_mtulxya0_29ed97",
+  "mode": "render-local",
+  "scope": "city",
+  "theme": "render-mono",
+  "projectName": "bestplumberchandler",
+  "stats": {
+    "states": 1,
+    "cities": 16,
+    "serviceAreas": 16,
+    "primaryCities": 1,
+    "localAreas": 0,
+    "nearbyCommunities": 15,
+    "services": 90,
+    "serviceFamilies": 9,
+    "familyHubs": 144,
+    "servicePages": 1440,
+    "estimatedIndexablePages": 1602
+  },
+  "qa": {
+    "score": 94,
+    "pass": true
+  },
+  "renderArchitecture": {
+    "version": 2,
+    "dynamic": true,
+    "pageGraph": "root → state → primary city → verified local/nearby areas → service family → service",
+    "allCanonicalServices": true,
+    "verifiedLocalAreaExpansion": true,
+    "serverRuntime": "node",
+    "healthPath": "/health",
+    "templates": [
+      "render-signal",
+      "render-editorial",
+      "render-grid",
+      "render-civic",
+      "render-mono"
+    ]
+  }
+}

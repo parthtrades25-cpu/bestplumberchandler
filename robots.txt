@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bestplumberchandler.onrender.com/sitemap.xml
